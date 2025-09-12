@@ -11,9 +11,9 @@ public class AuthController {
         return "home";
     }
 
-    @GetMapping("/dashboard")
-    public String dashboard() {
-        return "admin/panel";
+    @GetMapping("/login")
+    public String login() {
+        return "custom_login";
     }
 
     @GetMapping("/admin/panel")
